@@ -1,0 +1,149 @@
+/* images start */
+#gitamuniversity{
+position:absolute;
+top: 800px;
+left: 750px;
+width: 150px;
+height: 150px;
+cursor: pointer;
+}
+#gitamuniversity:hover{
+    opacity: 0.8;
+}
+#srichaitanya{
+    position:absolute;
+    top: 965px;
+    left: 770px;
+    width: 110px;
+    height: 110px;
+    cursor: pointer;
+}
+#srichaitanya:hover{
+    opacity: 0.8;
+}
+#springdale{
+    position:absolute;
+    top: 1110px;    
+    left: 760px;
+    width: 125px;
+    height: 125px;
+    cursor: pointer;
+}
+#springdale:hover{
+    opacity: 0.8; 
+}
+
+/* Images finish */
+
+/* buttons start */
+#lkin_gthb{
+    position:absolute;
+    top: 300px;
+    right: 200px;
+}
+#btn1:hover{
+    background-color: white;
+}
+#btn2:hover{
+    background-color: white;
+}
+#contact_form:hover{
+    color:black;
+
+}
+
+/* buttons end */
+
+/*  form details*/
+
+
+
+
+:root {
+    --nvidia-dark: #000000;
+    --nvidia-green: #76b900;
+    --nvidia-accent: #00ff00;
+    --text-light: #ffffff;
+}
+
+body {
+    background-color: var(--nvidia-dark);
+    color: var(--text-light);
+    font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.9) !important;
+    backdrop-filter: blur(10px);
+}
+
+.nav-link {
+    color: var(--text-light) !important;
+    margin: 0 15px;
+    transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+    color: var(--nvidia-green) !important;
+}
+
+.section-title {
+    color: var(--nvidia-green);
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
+
+.project-card {
+    background: #0a0a0a;
+    border: 1px solid #1a1a1a;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+    border-color: var(--nvidia-green);
+    box-shadow: 0 4px 15px rgba(118, 185, 0, 0.2);
+}
+
+.skill-badge {
+    background: #1a1a1a;
+    color: var(--nvidia-green) !important;
+    border: 1px solid #333;
+    margin: 5px;
+}
+
+.certificate-item {
+    background: #0a0a0a;
+    border-left: 3px solid var(--nvidia-green);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.timeline {
+    border-left: 2px solid var(--nvidia-green);
+    padding-left: 2rem;
+}
+
+.contact-form input,
+.contact-form textarea {
+    background: white;
+    border: 1px solid #333;
+    color: #333 !important;
+}
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+    color: rgb(182, 178, 178);
+}
+
+.btn-nvidia {
+    background: var(--nvidia-green);
+    color: #000 !important;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-nvidia:hover {
+    background: white;
+}
